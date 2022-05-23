@@ -6,6 +6,7 @@ import Blog from './pages/Blog/Blog';
 import Home from './pages/Home/Home/Home';
 import Footer from './pages/Shared/Footer/Footer';
 import Nabar from './pages/Shared/Nabar';
+import NotFound from './pages/Shared/NotFound/NotFound';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/home" element={<Home/>} />
         <Route path="/aboutus" element={<About/>} />
         <Route path="/blog" element={<Blog/>} />
+        <Route path="*" element={<NotFound/>} />
        
       </Routes>
       <Footer></Footer>
