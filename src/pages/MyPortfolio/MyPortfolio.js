@@ -41,7 +41,7 @@ Certificate, Science, GPA:
 <a href="https://go-grocery-auth.web.app/"> Grocery shop.</a> <br></br>
 <a href="https://movies-re-view.netlify.app/">Movies Review.</a><br></br>
 <a href="">Coming Soon!</a> <br></br>
-<div class="flex  gap-1 my-1 w-full">
+<div class="flex gap-1 my-1 w-full">
   <kbd class="kbd">C</kbd>
   <kbd class="kbd">C++</kbd>
   <kbd class="kbd">html</kbd>
@@ -51,7 +51,7 @@ Certificate, Science, GPA:
   <kbd class="kbd">Tailwind</kbd>
   
 </div> 
-<div class="flex  gap-1 my-1 w-full">
+<div class="flex mb-5  gap-1 my-1 w-full">
   <kbd class="kbd">Oracle Database</kbd>
   <kbd class="kbd">ReactJs</kbd>
   <kbd class="kbd">mongodb</kbd>

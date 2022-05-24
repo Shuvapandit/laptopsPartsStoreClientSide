@@ -1,0 +1,12 @@
+.lgin{
+
+background: linear-gradient(rgba(80, 81, 156, 0.774),rgba(103, 80, 156, 0.918)), url("../../../images//bgphoto/background.jpg");
+background-repeat:no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+
+height:110vh;
+position:relative;
+
+}
