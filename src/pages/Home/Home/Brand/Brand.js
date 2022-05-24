@@ -13,7 +13,7 @@ const Brand = () => {
 return (
 <div>
 <p className="text-3xl text-primary font-semibold mb-3 ml-2">Available Brands</p>
-<div class="grid grid-cols-1 lg:grid-cols-6 gap-4 ml-20 mb-6">
+<div className="grid grid-cols-1 lg:grid-cols-6 gap-4 ml-20 mb-6">
   <div>
   <img src={intel}/>
   </div>

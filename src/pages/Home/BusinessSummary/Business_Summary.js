@@ -14,7 +14,7 @@ return (
 
   <div className='container ml-16 mt-5 mb-3'>
                       
-<div class="  grid grid-cols-1 lg:grid-cols-4 gap-8 justify-center  icn">
+<div className="  grid grid-cols-1 lg:grid-cols-4 gap-8 justify-center  icn">
 <div className='justify-center'>
 <img className='' src={img1}/>
 <p className='text-3xl font-bold'>72+</p>

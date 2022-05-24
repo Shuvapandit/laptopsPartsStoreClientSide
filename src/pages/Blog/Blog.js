@@ -5,7 +5,7 @@ return (
 <div>
     <h1 className='text-center mt-4 mb-3 text-5xl text-primary'>AskMe Anything?</h1>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 ml-4 mr-4 mb-12 mt-6 text-justify">
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ml-4 mr-4 mb-12 mt-6 text-justify">
   <div>
 <p className='font-bold'>Q1.How will you improve the performance of a React Application?</p>
 <p><span className='font-bold'>Ans:</span> The ways,how will you improve the performance of a React Application: <br/>

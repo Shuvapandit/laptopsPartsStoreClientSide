@@ -4,8 +4,8 @@ import myphoto from '../../images/profile/7O9A8642.jpg'
 const MyPortfolio = () => {
  return (
 <div className='ml-12 mt-4 mr-4'>
-<div class="avatar">
-  <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+<div className="avatar">
+  <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
     <img src={myphoto}/>
     
   </div>
@@ -41,23 +41,23 @@ Certificate, Science, GPA:
 <a href="https://go-grocery-auth.web.app/"> Grocery shop.</a> <br></br>
 <a href="https://movies-re-view.netlify.app/">Movies Review.</a><br></br>
 <a href="">Coming Soon!</a> <br></br>
-<div class="flex gap-1 my-1 w-full">
-  <kbd class="kbd">C</kbd>
-  <kbd class="kbd">C++</kbd>
-  <kbd class="kbd">html</kbd>
-  <kbd class="kbd">css</kbd>
-  <kbd class="kbd">javaScript</kbd>
-  <kbd class="kbd">BootStrap</kbd>
-  <kbd class="kbd">Tailwind</kbd>
+<div className="flex gap-1 my-1 w-full">
+  <kbd className="kbd">C</kbd>
+  <kbd className="kbd">C++</kbd>
+  <kbd className="kbd">html</kbd>
+  <kbd className="kbd">css</kbd>
+  <kbd className="kbd">javaScript</kbd>
+  <kbd className="kbd">BootStrap</kbd>
+  <kbd className="kbd">Tailwind</kbd>
   
 </div> 
-<div class="flex mb-5  gap-1 my-1 w-full">
-  <kbd class="kbd">Oracle Database</kbd>
-  <kbd class="kbd">ReactJs</kbd>
-  <kbd class="kbd">mongodb</kbd>
-  <kbd class="kbd">express js</kbd>
-  <kbd class="kbd">nodejs</kbd>
-  <kbd class="kbd">firebase</kbd>
+<div className="flex mb-5  gap-1 my-1 w-full">
+  <kbd className="kbd">Oracle Database</kbd>
+  <kbd className="kbd">ReactJs</kbd>
+  <kbd className="kbd">mongodb</kbd>
+  <kbd className="kbd">express js</kbd>
+  <kbd className="kbd">nodejs</kbd>
+  <kbd className="kbd">firebase</kbd>
   
  
   

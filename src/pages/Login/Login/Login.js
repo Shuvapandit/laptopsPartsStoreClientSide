@@ -40,11 +40,12 @@ useEffect( () =>{
 
     const onSubmit = data => {
         signInWithEmailAndPassword(data.email, data.password);
+        
     }
 
     return (
         <div className='flex h-screen justify-center items-center lgin'>
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card w-96 bg-base-200 shadow-xl">
                 <div className="card-body">
                     <h2 className="text-center text-2xl font-bold">Login</h2>
                     <form onSubmit={handleSubmit(onSubmit)}>
@@ -99,13 +100,13 @@ useEffect( () =>{
                         </div>
 
                         {signInError}
-                        <input className='btn w-full max-w-xs text-white' type="submit" value="Login" />
+                        <input className='btn bg-primary w-full max-w-xs text-white' type="submit" value="Login" />
                     </form>
-                    <p><small>New to All!n1PartsStore <Link className='text-primary' to="/signup">Create New Account</Link></small></p>
+                    <p><small>New to All!n1PartsStore <Link className='text-primary ' to="/signup">Create New Account</Link></small></p>
                     <div className="divider">OR</div>
                     <button
                         onClick={() => signInWithGoogle()}
-                        className="btn btn-outline"
+                        className="btn btn-primary btn-outline"
                     >Continue with Google</button>
                 </div>
             </div>
