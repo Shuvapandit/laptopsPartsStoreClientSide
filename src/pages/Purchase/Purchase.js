@@ -4,16 +4,16 @@ import { useParams } from 'react-router-dom';
 import auth from '../../firebase.init';
 
 const Purchase = () => {
-                    const { partsID } = useParams()
+                 const { partsID } = useParams()
                     
-                    const [product, setProductDetail] = useState({})
-                    const [user, loading, error] = useAuthState(auth);
+        const [product, setProductDetail] = useState({})
+         const [user, loading, error] = useAuthState(auth);
                 
-                    useEffect(() => {
-                        const url = `http://localhost:5000/partsstore/${partsID}`
-                        fetch(url)
-                            .then(res => res.json())
-                            .then(data => setProductDetail(data))
+          useEffect(() => {
+             const url = `http://calm-shore-44429.herokuapp.com/partsstore/${partsID}`
+            fetch(url)
+            .then(res => res.json())
+            .then(data => setProductDetail(data))
                     }, [product])
                     const { _id, name, price } = product;
                 
@@ -37,7 +37,7 @@ const Purchase = () => {
                             customerName: user.displayName,
                         }
                 
-                        fetch('http://localhost:5000/purchase', {
+                        fetch('http://calm-shore-44429.herokuapp.com/purchase', {
                             method: 'POST',
                             headers: {
                                 'content-type': 'application/json'

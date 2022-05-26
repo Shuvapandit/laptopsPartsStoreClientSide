@@ -40,7 +40,7 @@ Certificate, Science, GPA:
 <p className='font-semibold text-2xl'>PERSONAL PROJECTS</p>
 <a href="https://go-grocery-auth.web.app/"> Grocery shop.</a> <br></br>
 <a href="https://movies-re-view.netlify.app/">Movies Review.</a><br></br>
-<a href="">Coming Soon!</a> <br></br>
+<a href="https://adven-tour-authentication.web.app/">Travel website</a> <br></br>
 <div className="flex gap-1 my-1 w-full">
   <kbd className="kbd">C</kbd>
   <kbd className="kbd">C++</kbd>
