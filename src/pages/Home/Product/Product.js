@@ -1,8 +1,15 @@
 import React from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+
 import './Product.css'
 
 const Product = ({product}) => {
-const{name,img,description,price,quantity,minumamquantity}=product;
+const{_id,name,img,description,price,quantity,minumamquantity}=product;
+const navigate = useNavigate();
+
+const navigateToItemDetail = _id =>{
+    navigate(`/purchase/${_id}`);
+}
 
  return (
 
@@ -17,7 +24,7 @@ const{name,img,description,price,quantity,minumamquantity}=product;
     <h2> <span className=' font-bold'>Minuman Quantity: </span> {minumamquantity}</h2>
     <p>{description}</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Purchase</button>
+      <button onClick={() => navigateToItemDetail(_id)} className="btn btn-primary">Purchase</button>
     </div>
   </div>
 </div>
