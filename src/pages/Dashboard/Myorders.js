@@ -9,7 +9,7 @@ const [purchase,setPurchase]=useState([]);
 const [user] = useAuthState(auth);
 useEffect(() => {
  if (user){
- fetch(`http://calm-shore-44429.herokuapp.com/purchase?customer=${user.email}`,{
+ fetch(`https://calm-shore-44429.herokuapp.com/purchase?customer=${user.email}`,{
 method: 'GET',
 headers: {
 'authorization': `Bearer ${localStorage.getItem('accessToken')}`
