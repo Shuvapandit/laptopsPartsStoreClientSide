@@ -1,5 +1,12 @@
 .hro {
 background-image: url("../../../images//bgphoto/background.jpg");
 width: 100%;
-height: 50%;
+
+background-repeat:no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+
+position:relative;
+ 
  }
