@@ -23,8 +23,8 @@ const navigateToItemDetail = _id =>{
     <h2> <span className=' font-bold'> Quantity: </span> {quantity}</h2>
     <h2> <span className=' font-bold'>Minuman Quantity: </span> {minumamquantity}</h2>
     <p>{description}</p>
-    <div className="card-actions justify-end">
-      <button onClick={() => navigateToItemDetail(_id)} className="btn btn-primary">Purchase</button>
+    <div className="card-actions  justify-end">
+      <button onClick={() => navigateToItemDetail(_id)} className="btn btn-primary text-white">Purchase</button>
     </div>
   </div>
 </div>

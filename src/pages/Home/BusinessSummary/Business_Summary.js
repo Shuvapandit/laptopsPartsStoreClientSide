@@ -8,7 +8,7 @@ import './Business_Summary.css'
 const Business_Summary = () => {
 return (
 <div>
-      <h1 className='text-center mb-4 mt-4 font-bold text-4xl text-primary uppercase' >Millions Business Trust Us.</h1>           
+      <h1 className='text-center mb-4 mt-4 font-bold text-4xl text-secondary uppercase' >Millions Business Trust Us.</h1>           
       <p className='text-center text-2xl uppercase'>Try To understand user Expectation </p>   
       <div className='justify-center'>
 
