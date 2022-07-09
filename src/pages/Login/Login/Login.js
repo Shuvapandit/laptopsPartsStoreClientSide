@@ -45,8 +45,8 @@ useEffect( () =>{
     }
 
     return (
-        <div className='flex h-screen justify-center items-center lgin'>
-            <div className="card w-96 bg-base-200 shadow-xl">
+        <div className='flex  h-screen justify-center items-center lgin'>
+            <div className="card  mt-7 w-96   bg-base-200 shadow-xl">
                 <div className="card-body">
                     <h2 className="text-center text-2xl font-bold">Login</h2>
                     <form onSubmit={handleSubmit(onSubmit)}>

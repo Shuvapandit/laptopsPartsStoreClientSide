@@ -1,9 +1,10 @@
 import React from 'react';
+import '../Shared/Style/Style.css'
 
 const Blog = () => {
 return (
 <div>
-    <h1 className='text-center mt-4 mb-3 text-5xl text-primary'>AskMe Anything?</h1>
+    <h1 className='text-center mtop mt-4 mb-3 text-5xl text-black'>AskMe Anything?</h1>
 
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ml-4 mr-4 mb-12 mt-6 text-justify">
   <div>

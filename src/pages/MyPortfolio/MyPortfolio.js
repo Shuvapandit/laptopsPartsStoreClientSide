@@ -3,7 +3,7 @@ import myphoto from '../../images/profile/7O9A8642.jpg'
 
 const MyPortfolio = () => {
  return (
-<div className='ml-12 mt-4 mr-4'>
+<div className='ml-12 mt-4 mtop mr-4'>
 <div className="avatar">
   <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
     <img src={myphoto}/>

@@ -3,6 +3,7 @@ import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../firebase.init';
+import '../Shared/Style/Style.css'
 
 
 const Navbar = () => {
@@ -29,7 +30,7 @@ const Navbar = () => {
        
     </>
     return (
-        <div className=" navbar h-20 bg-primary text-black font-semibold font-mono ">
+        <div className=" navbar h-20 bg-primary text-white font-semibold font-mono  Navv">
             <div className="navbar-start">
                 <div className="dropdown bg-primary">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden ">
@@ -39,7 +40,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">All!n1PartsStore</a>
+                <a className="btn btn-ghost normal-case text-xl ">All!n1PartsStore</a>
             </div>
             <div className="navbar-end  hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
